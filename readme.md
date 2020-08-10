@@ -57,3 +57,8 @@ https://www.udemy.com/course/laravel-framework-build-professional-ecommerce/lear
 		modified:   app/Http/Controllers/Auth/ChangePasswordController.php
         modified:   resources/views/auth/login.blade.php
         modified:   resources/views/auth/passwords/change.blade.php
+
+	32. Update Authentication Page 
+	> git status
+		modified:   app/Http/Controllers/Auth/ChangePasswordController.php
+    
