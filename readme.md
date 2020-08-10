@@ -33,9 +33,14 @@ https://www.udemy.com/course/laravel-framework-build-professional-ecommerce/lear
 
 	> php artisan make:controller Auth/ChangePasswordController
 	> git status
-			
+
 		new file:   app/Http/Controllers/Auth/ChangePasswordController.php
         modified:   readme.md
         new file:   resources/views/auth/passwords/change.blade.php
         modified:   resources/views/layouts/app.blade.php
         modified:   routes/web.php
+
+    30. Laravel Default Authentication Change Password Part 2
+
+    > git status
+        modified:   app/Http/Controllers/Auth/ChangePasswordController.php
