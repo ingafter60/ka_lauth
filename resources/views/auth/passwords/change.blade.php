@@ -19,7 +19,7 @@
                             <div class="col-md-6">
                                 <input 
                                     id="oldpassword" 
-                                    type="text" 
+                                    type="password" 
                                     class="form-control @error('oldpassword') is-invalid @enderror" 
                                     name="oldpassword"
                                     required autocomplete="oldpassword" autofocus>

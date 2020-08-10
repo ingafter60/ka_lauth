@@ -14,7 +14,7 @@ class ChangePasswordController extends Controller
     	return view('auth.passwords.change');
     }
 
-    public function changepassword(Request, $request){
+    public function changepassword(Request $request){
 
     	// Validation
     	$this->validate($request, [
@@ -34,7 +34,7 @@ class ChangePasswordController extends Controller
     		$user->save();
     		// Logout the user after updating its new password and redirect hit/her to login page
     		Auth::logout();
-    		return redirect()->route('login')->with('successMsg', 'Password changed successfully!')
+    		return redirect()->route('login')->with('successMsg', 'Password changed successfully!');
     	} else {
     		return redirect()->back()->with('errorMsg', 'Your password is invalid!');
     	}
